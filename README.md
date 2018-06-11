@@ -14,7 +14,7 @@ The needed functionality for a full GCI.
 8. File Download (to client) - "Send" file to client
 
 # HTTP
-**H**yper**t**ext **T**ransfer **P**rotocol is a standard protocol define on top of TCP/IP, being TCP/IP the actual packet transport layer handling protocol taking care of request consistency and completeness and the likes. An HTTP request looks like so:
+**H**yper**t**ext **T**ransfer **P**rotocol is a standard protocol defined on top of TCP/IP, being TCP/IP the actual packet transport layer handling protocol taking care of request consistency and completeness and the likes. An HTTP request looks like so:
 ```
 METHOD /virtualpath HTTP/version
 Host: httpAuthority
@@ -49,5 +49,5 @@ That's just it.
 # Alternatives
 The alternatives...
 
-|Name|Runtime|Language|
-|-|-|-|
+|Name|Runtime|HTTP Processor|Language|IDE|
+|-|-|-|-|-|
