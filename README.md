@@ -1,7 +1,7 @@
 # CGI
 **Common Gateway Interfaces** (CGI) are called **Web API**s, these days. In truth, they're just **HTTP Request Handler**s. We are in an API first era. Here I'll explore a plethora of alternatives to implement these applications.
 
-# Funtionality
+# Functionality
 The needed functionality for a full GCI.
 
 1. Simple GET - Handle simple HTTP Get request of a known URL
@@ -12,6 +12,7 @@ The needed functionality for a full GCI.
 6. Catch all 404 - Handle bad request and returning other (that 200) HTTP codes
 7. File Upload (to sever) - Handle file upload to server
 8. File Download (to client) - "Send" file to client
+9. Authorization - Handle requests that don't provide proper identification data
 
 # HTTP
 **H**yper**t**ext **T**ransfer **P**rotocol is a standard protocol defined on top of TCP/IP, being TCP/IP the actual packet transport layer handling protocol taking care of request consistency and completeness and the likes. An HTTP request looks like so:
